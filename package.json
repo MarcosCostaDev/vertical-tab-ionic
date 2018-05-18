@@ -1,6 +1,6 @@
 {
   "name": "ionic-module-template",
-  "version": "0.0.12",
+  "version": "1.0.0",
   "description": "A template for creating reusable module for Angular 2 and Ionic 2",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/driftyco/ionic-module-template.git"
+    "url": "git+https://github.com/marcoslcosta/vertical-tab-ionic.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/driftyco/ionic-module-template/issues"
+    "url": "https://github.com/marcoslcosta/vertical-tab-ionice/issues"
   },
-  "homepage": "https://github.com/driftyco/ionic-module-template#readme",
+  "homepage": "https://github.com/marcoslcosta/vertical-tab-ionic#readme",
   "devDependencies": {
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",

@@ -17,4 +17,4 @@ import { IonFooterVerticalTabComponent } from './ion-footer-vertical-tab/ion-foo
 		IonHeaderVerticalTabComponent,
 		IonFooterVerticalTabComponent]
 })
-export class ComponentsModule { }
+export class VerticalTabModule { }
