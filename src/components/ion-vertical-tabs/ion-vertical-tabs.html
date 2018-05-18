@@ -1,0 +1,25 @@
+<ion-split-pane when="xs" no-padding no-margin >
+    <ion-menu [content]="content" [ngClass]="CssClass" no-padding no-margin [side]="side">
+            <div 
+            class="ion-vertical-tabs" 
+            [ngClass]="{'content-start': directionTab == 'start', 'content-center':  directionTab == 'center', 'content-end': directionTab == 'end' }">
+      
+           
+            <ion-header #tabHeader>
+                <ng-content select="ion-header-vertical-tab"></ng-content>
+            </ion-header>
+            
+            <ion-content no-padding no-margin>
+                <ng-content select="ion-vertical-tab"></ng-content>
+            </ion-content>
+
+            <ion-footer #tabFooter>
+                <ng-content select="ion-footer-vertical-tab"></ng-content>
+            </ion-footer>
+          
+ 
+    </div>
+    </ion-menu>
+
+    <ion-nav [root]="childPage" main #content></ion-nav>
+</ion-split-pane>

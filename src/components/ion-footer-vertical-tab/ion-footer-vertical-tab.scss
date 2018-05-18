@@ -1,0 +1,14 @@
+ion-footer-vertical-tab {
+
+    i[class^="fa-"], ion-icon[class^="fa-"] {    
+        font-family: "FontAwesome" !important;
+     }
+
+    .is-selected{
+        color: color($colors, primary);
+    }
+
+    .is-not-selected{
+        color: color($colors, secondary);
+    }
+}
