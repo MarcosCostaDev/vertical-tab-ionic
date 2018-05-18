@@ -1,0 +1,33 @@
+ion-vertical-tabs {
+
+    .split-pane-side{
+        min-width: 5.7em !important;
+        max-width: 5.7em !important;
+        border-right: 0 !important;
+    }
+
+    .ion-vertical-tabs {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction:  column;
+        
+        &.content-start{
+            justify-content: start;
+        }
+
+        &.content-center{
+            justify-content: center;
+        }
+        &.content-end{
+            justify-content: end;
+        }
+
+      
+    }
+
+    .vertical-tab-background{
+        background: color($colors, light);
+    }
+
+}
