@@ -1,6 +1,6 @@
 {
-  "name": "ionic-vertical-tab",
-  "version": "1.0.0",
+  "name": "vertical-tab-ionic",
+  "version": "0.0.1",
   "description": "vertical tabs for ionic projets",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -14,7 +14,13 @@
     "type": "git",
     "url": "git+https://github.com/marcoslcosta/vertical-tab-ionic.git"
   },
-  "keywords": ["ionic", "tabs", "vertical", "vertical tabs", "ionic tabs"],
+  "keywords": [
+    "ionic",
+    "tabs",
+    "vertical",
+    "vertical tabs",
+    "ionic tabs"
+  ],
   "author": "Marcos Costa",
   "license": "MIT",
   "bugs": {

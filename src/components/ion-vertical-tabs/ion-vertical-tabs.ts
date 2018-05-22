@@ -13,6 +13,10 @@ import { Nav, Header, Footer } from 'ionic-angular';
   templateUrl: 'ion-vertical-tabs.html'
 })
 export class IonVerticalTabsComponent {
+
+
+  childPage:any;
+  
   @ViewChild(Nav) 
   nav: Nav;
 
@@ -21,8 +25,6 @@ export class IonVerticalTabsComponent {
 
   @ViewChild("tabFooter")
   tabFooter:Footer;
-
-
 
   @Input()
   directionTab: "start" | "center" | "end" = "start";
